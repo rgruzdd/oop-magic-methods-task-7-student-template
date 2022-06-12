@@ -1,7 +1,6 @@
-from typing import List
+from contextlib import ContextDecorator
 
-def check(lst: List):
-    """
-    Add your code here or call it from here   
-    """
+
+class LogFile(ContextDecorator):
     pass
+
